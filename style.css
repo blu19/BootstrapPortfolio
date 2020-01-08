@@ -1,61 +1,38 @@
-.container-fluid {
-
+body {
+    
 }
 
 .row {
-
+    
 }
 
-.portfolio {
-
+.header {
+    background-color: white;
+    overflow: hidden;
+    padding: 20px 10px;
 }
 
-.nav_section {
-    height: 50px;
-}
-
-.col-md-3 {
-
-}
-
-.col-md-9 {
-
-}
-
-.nav_section_links {
-
+.header a {
+    text-align: right;
+    float: left;
+    color: purple;
+    max-width: 960px;
+    display: block;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
 }
 
 .about_me {
+    width: 960px;
+    border: 1px solid dodgerblue;
+}
+
+.bottom-row {
 
 }
 
-.col-xs-12 {
+footer {
 
 }
-
-.col-sm-12 {
-
-}
-
-.col-md-8 {
-
-}
-
-.col-lg-8 {
-
-}
-
-.connect {
-
-}
-
-.img-thumbnail {
-
-}
-
-.footer {
-
-}
-
-
