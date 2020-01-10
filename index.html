@@ -1,36 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Brian Ulatowski Portfolio</title>
 
-    <!-- Reset css file -->
+    <!-- Reset CSS file -->
     <link rel="stylesheet" href="reset.css">
 
-    <!-- Bootstrap CSS including reset file -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     
-       <link rel="stylesheet" href="style.css">
-    
-       <script src="https://kit.fontawesome.com/0b5f1c4663.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  </head>
+    <link rel="stylesheet" href="style.css">
 
-  <body>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+    <script src="https://kit.fontawesome.com/0b5f1c4663.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
 
     <div class="container-fluid">
 
         <!--Nav section-->
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
 
         <div class="row header">
 
             <a href="index.html" class="navbar-brand">Brian Ulatowski</a>
 
-            <nav class="navbar col-md-3 col-md-9 navbar-light">
+            <nav class="link navbar col-md-3 col-md-9 navbar-light">
 
+                <div></div>
                 <a href="index.html">About Me</a>
 
                 <a href="portfolio.html">Portfolio</a>
@@ -40,76 +59,91 @@
             </nav>
 
         </div>
-    
+
     </div>
 
     <!-- About Me Section -->
- 
+
     <div class="container">
-       
+
         <div class="about_me col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
-            <h5>About Me</h5>
+            <section class="main">
 
-            <hr>
+                <h5 class="title">About Me</h5>
 
-                <img src="/Users/calprep/Downloads/79314047_664272047436280_6703205671329857536_n.jpg" alt="Brian Ulatowski">
+                <hr>
+
+                <img src="/Users/calprep/Downloads/79314047_664272047436280_6703205671329857536_n.jpg" class="myimage"
+                    alt="Brian Ulatowski">
 
                 <p>
-                    Welcome everyone! I look forward to meeting you if I haven't already. 
-                    My name is Brian Ulatowski and this is my first basic portfolio website. 
-                    I graduated from Cal State University Northridge in 2005 with a BA in 
-                    Liberal Studies and a focus in teaching math and a Teaching Credential. 
-                    I have taught for 14 years, in public and private schools, including charter 
-                    schools and internationally in Cambodia, Vietnam and Costa Rica. I've taught 
-                    mostly math subjects, but have also taught English as a Second Language, 
-                    History, Language Arts, Science, Humanities, as well as other stuff. 
-                    Currently, I'm taking a full stack web development program via Trilogy at 
-                    UCLA Extension. My hope is that I can transition into a career in web 
+                    Welcome everyone! I look forward to meeting you if I haven't already.
+                    My name is Brian Ulatowski and this is my first basic portfolio website.
+                    I graduated from Cal State University Northridge in 2005 with a BA in
+                    Liberal Studies and a focus in teaching math and a Teaching Credential.
+                    I have taught for 14 years, in public and private schools, including charter
+                    schools and internationally in Cambodia, Vietnam and Costa Rica. I've taught
+                    mostly math subjects, but have also taught English as a Second Language,
+                    History, Language Arts, Science, Humanities, as well as other stuff.
+                    Currently, I'm taking a full stack web development program via Trilogy at
+                    UCLA Extension. My hope is that I can transition into a career in web
                     development.
                 </p>
+
                 <p>
-                    When I'm not working, I enjoy spending time with family and friends, 
-                    especially my wife. I enjoy traveling to different places, especially 
-                    places that speak different languages and have different cultures than 
-                    what we are used to here in the US. I've had the privilege of traveling 
-                    through more than 25 different countries. Usually budget travel. Once flew 
-                    round trip to Guatemala from Los Angeles for $72 including tax. I've been 
-                    turned down for a job because I didn't look 'American enough.' I've moved 
-                    a lot more than most; more times than years I've been alive. I do my best 
-                    to stay active and get in exercise several times each week, as it helps me 
-                    to maintain my sanity. I'm extremely afraid of heights. I am a very picky 
-                    eater, but I love to eat and I also love to cook, but my actual cooking 
-                    skills are still progressing. I enjoy watching movies and shows, especially 
-                    realistic dramas or comedies. I care about people and the community around 
-                    me. 
+                    When I'm not working, I enjoy spending time with family and friends,
+                    especially my wife. I enjoy traveling to different places, especially
+                    places that speak different languages and have different cultures than
+                    what we are used to here in the US. I've had the privilege of traveling
+                    through more than 25 different countries. Usually budget travel. Once flew
+                    round trip to Guatemala from Los Angeles for $72 including tax. I've been
+                    turned down for a job because I didn't look 'American enough.' I've moved
+                    a lot more than most; more times than years I've been alive. I do my best
+                    to stay active and get in exercise several times each week, as it helps me
+                    to maintain my sanity. I'm extremely afraid of heights. I am a very picky
+                    eater, but I love to eat and I also love to cook, but my actual cooking
+                    skills are still progressing. I enjoy watching movies and shows, especially
+                    realistic dramas or comedies. I care about people and the community around
+                    me.
                 </p>
+
                 <p>
-                    This hopefully gives you a little insight to me. Please feel free to reach 
-                    out to ask me any questions about myself or web development stuff. 
+                    This hopefully gives you a little insight to me. Please feel free to reach
+                    out to ask me any questions about myself or web development stuff.
                 </p>
+
+            </section>
+
         </div>
-    
-    </div>
-
-    <!--Connect With Me Section-->
-
-    <div class="bottom-row">
-        
-        <h5>Connect with Me</h5>
-
-        <a href="https://www.linkedin.com/in/brian-ulatowski/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-        <a href="https://github.com/blu19" target="_blank"><i class="fab fa-github"></i></a>
 
     </div>
 
+    <hr>
     <!--Footer-->
-    <footer class="row">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <footer>
 
-        <p>Copyright 2019 | Brian Ulatowski</p>
-        
-    </footer>
-          
-  </body>
+                <!--Connect With Me Section-->
+
+                <div class="bottom-row">
+
+                    <h5 class="connect">Connect with Me</h5>
+
+                    <a href="https://www.linkedin.com/in/brian-ulatowski/" class="mymedia" target="_blank"><i
+                            class="fab fa-linkedin w3-large"></i></a>
+
+                    <a href="https://github.com/blu19" class="mymedia" target="_blank"><i
+                            class="fab fa-github w3-large"></i></a>
+
+                </div>
+
+                <p>Copyright 2019 | Brian Ulatowski</p>
+
+            </footer>
+        </div>
+    </div>
+</body>
+
 </html>

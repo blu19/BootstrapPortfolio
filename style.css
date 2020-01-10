@@ -1,5 +1,17 @@
 body {
-    
+    color: purple;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: rgb(200, 175, 175);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    color: rebeccapurple;
+    padding: 20px;
+    border-style: groove;
 }
 
 .row {
@@ -7,7 +19,7 @@ body {
 }
 
 .header {
-    background-color: white;
+    background-color: steelblue;
     overflow: hidden;
     padding: 20px 10px;
 }
@@ -15,7 +27,7 @@ body {
 .header a {
     text-align: right;
     float: left;
-    color: purple;
+    color: mistyrose;
     max-width: 960px;
     display: block;
     padding: 12px;
@@ -24,15 +36,35 @@ body {
     border-radius: 4px;
 }
 
+.link {
+    float: right;
+}
+
 .about_me {
     width: 960px;
     border: 1px solid dodgerblue;
 }
 
-.bottom-row {
+.myimage{
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    float: left;
+    border: darkviolet;
+    border-style: solid;
+}
 
+.connect {
+    color: maroon;
+    text-shadow: slateblue 10px;
+}
+
+.mymedia{
+    color: rgb(40, 40, 40);
 }
 
 footer {
-
+    background: silver;
+    text-align: center;
 }
