@@ -1,11 +1,22 @@
 body {
-    color: purple;
+    color: rgb(8, 17, 24);
     font-family: monospace;
-    font-size: 16px;
     line-height: 30px;
     background-color: rgb(200, 175, 175);
     background-position: center;
     background-size: cover;
+}
+
+#name {
+    font-size: 40px;
+    color: rgb(163, 158, 165);
+}
+
+#links {
+    color: rgb(34, 6, 53);
+    font-size: 22px;
+    font-style: unset;
+    font-family: cursive;
 }
 
 .title {
@@ -14,12 +25,16 @@ body {
     border-style: groove;
 }
 
-.row {
-    
+.col-md-9 {
+    float: right;
+}
+
+.contactbox {
+    padding-left: 20px;
 }
 
 .header {
-    background-color: steelblue;
+    background-color: rgb(17, 65, 104);
     overflow: hidden;
     padding: 20px 10px;
 }
@@ -27,7 +42,7 @@ body {
 .header a {
     text-align: right;
     float: left;
-    color: mistyrose;
+    color: rgb(255, 238, 225);
     max-width: 960px;
     display: block;
     padding: 12px;
@@ -53,6 +68,10 @@ body {
     float: left;
     border: darkviolet;
     border-style: solid;
+}
+
+.portfolio {
+    padding-left: 20px;
 }
 
 .connect {
