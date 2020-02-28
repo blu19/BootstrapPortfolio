@@ -9,14 +9,15 @@
     <title>Brian Ulatowski Portfolio</title>
 
     <!-- Reset CSS file -->
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/misc/BrianUlatowski2020.pdf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
     <script src="https://kit.fontawesome.com/0b5f1c4663.js" crossorigin="anonymous"></script>
@@ -28,74 +29,71 @@
     <div class="container-fluid">
 
         <!--Nav section-->
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
+        
+        <ul class="row header">
 
-        <div class="row header">
+            <li class="nav-item">
+                <a id="name" href="index.html" class="navbar-brand">Brian Ulatowski</a>
+            </li>
 
-            <a href="index.html" class="navbar-brand">Brian Ulatowski</a>
-
-            <nav class="link navbar col-md-3 col-md-9 navbar-light">
-
-                <div></div>
+            <nav>
+           
+          <ul id="links" class="nav">
+            <li class="nav-item">
                 <a href="index.html">About Me</a>
+            </li>
 
+            <li class="nav-item">
                 <a href="portfolio.html">Portfolio</a>
+            </li>
 
+            <li class="nav-item">
                 <a href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="assets/misc/BrianUlatowski2020.pdf">Resume/CV</a>
+            </li>
+
+          </ul>
 
             </nav>
-
-        </div>
+            
+        </ul>
 
     </div>
 
     <!-- About Me Section -->
 
-    <div class="container">
+    <div class="container-fluid background">
 
-        <div class="about_me col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="about_me col-xs-12 col-sm-12 col-xs-4 col-md-8 col-lg-8">
 
-            <section class="main">
 
-                <h5 class="title">About Me</h5>
+                <h1 class="title">About Me</h1>
 
                 <hr>
 
                 <img src="/Users/calprep/Downloads/79314047_664272047436280_6703205671329857536_n.jpg" class="myimage"
                     alt="Brian Ulatowski">
-
+                <div class="myBio">
                 <p>
                     Welcome everyone! I look forward to meeting you if I haven't already.
-                    My name is Brian Ulatowski and this is my first basic portfolio website.
-                    I graduated from Cal State University Northridge in 2005 with a BA in
-                    Liberal Studies and a focus in teaching math and a Teaching Credential.
-                    I have taught for 14 years, in public and private schools, including charter
-                    schools and internationally in Cambodia, Vietnam and Costa Rica. I've taught
-                    mostly math subjects, but have also taught English as a Second Language,
-                    History, Language Arts, Science, Humanities, as well as other stuff.
-                    Currently, I'm taking a full stack web development program via Trilogy at
-                    UCLA Extension. My hope is that I can transition into a career in web
-                    development.
+                    My name is Brian Ulatowski and this is my portfolio website. I graduated from 
+                    Cal State University Northridge in 2005 with a BA in Liberal Studies with a 
+                    focus in teaching math and a Teaching Credential. Since then, I have taught 
+                    for over 10 years, in public and private schools, including charter schools 
+                    and internationally in Cambodia, Vietnam and Costa Rica. I've taught mostly 
+                    math subjects, but have also taught English as a Second Language, History, 
+                    Language Arts, Science, Humanities, as well as other stuff. Currently, I'm 
+                    taking a full stack web development program via Trilogy at UCLA Extension. My 
+                    plan is to transition into a career in web development.
                 </p>
 
                 <p>
                     When I'm not working, I enjoy spending time with family and friends,
                     especially my wife. I enjoy traveling to different places, especially
                     places that speak different languages and have different cultures than
-                    what we are used to here in the US. I've had the privilege of traveling
+                    what I am used to here in the US. I've had the privilege of traveling
                     through more than 25 different countries. Usually budget travel. Once flew
                     round trip to Guatemala from Los Angeles for $72 including tax. I've been
                     turned down for a job because I didn't look 'American enough.' I've moved
@@ -113,8 +111,7 @@
                     out to ask me any questions about myself or web development stuff.
                 </p>
 
-            </section>
-
+                </div>
         </div>
 
     </div>
@@ -122,26 +119,28 @@
     <hr>
     <!--Footer-->
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <footer>
+
+        <div class="container-fluid">
+        
+            <div class="footer">
 
                 <!--Connect With Me Section-->
 
-                <div class="bottom-row">
+                <!-- <div class="bottom-row"> -->
 
-                    <h5 class="connect">Connect with Me</h5>
+                    <h3 class="connect">Connect with Me</h3>
 
                     <a href="https://www.linkedin.com/in/brian-ulatowski/" class="mymedia" target="_blank"><i
-                            class="fab fa-linkedin w3-large"></i></a>
+                            class="fab fa-linkedin w3-xxxlarge logoColor"></i></a>
 
                     <a href="https://github.com/blu19" class="mymedia" target="_blank"><i
-                            class="fab fa-github w3-large"></i></a>
+                            class="fab fa-github w3-xxxlarge logoColor"></i></a>
 
-                </div>
+                <!-- </div> -->
 
-                <p>Copyright 2019 | Brian Ulatowski</p>
+                <p>&copy; 2019-2020 | Brian Ulatowski</p>
 
-            </footer>
+            </div>
         </div>
     </div>
 </body>

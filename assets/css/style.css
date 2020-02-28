@@ -1,0 +1,141 @@
+body {
+    color: rgb(8, 17, 24);
+    font-family: monospace;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+hr {
+    background-color: black;
+}
+
+#name {
+    font-size: 40px;
+    color: rgb(163, 158, 165);
+}
+
+#links {
+    color: rgb(34, 6, 53);
+    font-size: 8%;
+    font-style: unset;
+    font-family: cursive;
+}
+
+.title {
+    color: rebeccapurple;
+    padding: 20px;
+    border-style: groove;
+}
+
+.col-md-9 {
+    float: right;
+}
+
+.contactBox {
+    padding-left: 20px;
+    width: 100%;
+    background-color: rgba(4, 2, 31, 0.913);
+}
+
+.header {
+    background-color: rgb(1, 7, 12);
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header a {
+    text-align: right;
+    float: left;
+    color: rgb(163, 158, 165);
+    max-width: 960px;
+    display: block;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.link {
+    float: right;
+}
+
+.logoColor {
+    color: rgb(rgba(255, 0, 191, 0.687), green, blue);
+}
+
+.about_me {
+    color: rgb(163, 158, 165);
+    width: 80%;
+    border: 1px solid black;
+    margin: 0% 0% 0% 8%;
+}
+
+.background {
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/10/abstract-hd-dark-backgrounds.jpg);
+    background-size: cover;
+}
+
+.emailBox {
+    width: 50%;
+}
+
+.messageBox {
+    width: 50%;
+}
+
+.nameBox {
+    width: 320%;
+}
+
+.connect {
+    color: rgb(255, 0, 68);
+    text-shadow: slateblue 10px;
+    margin: 0;
+}
+
+.contactText {
+    color: rgb(163, 158, 165);
+}
+
+.footer {
+    padding-top: 14px;
+    background: black;
+    font-size: 18px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    color: rgba(0, 94, 255, 0.55);
+}
+
+.myBio {
+    font-size: 20px;
+}
+
+.myimage{
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    float: left;
+    border: darkviolet;
+    border-style: solid;
+}
+
+.mymedia {
+    color: rgb(40, 40, 40);
+}
+
+.mymedia:hover {
+    color: rgba(0, 94, 255, 0.55);
+}
+
+.portfolio {
+    padding-left: 20px;
+}
+
+.tile {
+    color: rgb(163, 158, 165);
+}
